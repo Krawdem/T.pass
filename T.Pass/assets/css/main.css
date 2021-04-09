@@ -1,0 +1,499 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul{
+    display: flex;
+}
+li{
+    margin-top: 5px;
+    list-style-type: none;
+}
+
+.background{
+    background: #F5F6F7;  
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F5F6F7;
+}
+.header__nav__link{
+    margin-left: 70px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.header__nav__button{
+    margin-left: 70px;
+    width: 122px;
+    height: 50px;
+    background-color: #000;
+    color: white;
+    border-radius: 8px;
+}
+.intro{
+    margin-top: 126px;
+    display: flex;
+    background: #F5F6F7;
+}
+.intro__text__blue{
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 76px;  
+    color: #00CCCC;
+    letter-spacing: 1.11px;
+   }
+.intro__text__black{ 
+    width: 557px;
+    position: absolute;  
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 76px;
+    letter-spacing: 1.11px;
+}
+.intro__button{
+    display: block;
+    text-align: center;
+    align-items: center;
+    width: 208px;
+    height: 60px;
+    background: #00CCCC;
+    border-radius: 14px;
+    margin-top: 185px;
+    border: 0;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: medium;
+    box-shadow:  0 5px 10px 10px #EDEDEF;
+}
+.intro__btn{
+    display: block;
+    text-align: center;
+}
+.intro__arrow__img{
+    margin-top: 5px;
+}
+.about__bg{
+    background: #FFFFFF;
+}
+.about{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.about__inner{
+    width: 293px;
+}
+
+.about__inner__title{
+    margin-top: 30px;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+}
+.about__inner__text{
+    margin-top: 12px;
+    color: #576D81;
+    font-size: 16px;
+    line-height: 24px;
+}
+.work{
+    display: flex;
+    background-color: #F4F5F6;
+    height: 540px;
+    width: 100%;
+    border-radius: 50px;
+    margin-top: 190px;
+}
+.work__img{
+    position: absolute;
+    top: -50px;
+    height: 650px;
+    width: 1110px;
+    background-image: url(/assets/img/how-does-it-work.png);
+}
+.work__inner{
+    margin-left: 550px;
+}
+.work__inner__about{
+   
+    margin-top: 115px;
+    font-size: 18px;
+    line-height: 18px;
+}
+.work__inner__title{
+    height: 56px;
+    width: 195px;
+    margin-top: 22px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 55px;
+}
+.work__inner__text{
+    margin-top: 75px;
+    width: 414px;
+    height: 96px;
+    font-size: 16px;
+    line-height: 24px;
+    color:#576D81;
+}
+
+.discount{
+    margin-top: 220px;
+    background-color: #F4F5F6;
+    position: relative;
+}
+.discount__all{
+    display: flex;
+}
+.discount__loyalty{
+    box-shadow:  0 5px 10px 10px #EDEDEF;
+    position: absolute;
+    display: flex;
+    width: 455px;
+    height: 179px;
+    background: white;
+    border-radius: 8px;
+    top: -40px;
+}
+.discount__exlusive{
+    box-shadow:  0 5px 10px 10px #EDEDEF;
+    display: flex;
+    margin-left: 40px;
+    width: 455px;
+    height: 179px;
+    margin-top: 169px;
+    margin-bottom: 169px;
+    background: white;
+    border-radius: 8px;
+}
+.discount__free{
+    box-shadow:  0 5px 10px 10px #EDEDEF;
+    position: absolute;
+    display: flex;
+    width: 455px;
+    height: 179px;
+    margin-top: 30px;
+    background: white;
+    border-radius: 8px;
+    bottom: -40px;
+}
+.discount__img{
+    position: absolute;
+    right: 0;
+    top: -110px;
+}
+.discount__loyalty_logo{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.discount__loyalty__info__title{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    
+}
+.discount__loyalty__info__text{
+    font-size: 16px;
+    line-height: 24px;
+    color: #576D81;
+    letter-spacing: 1px;
+}
+.discount__loyalty__info{
+    margin-left: 23px;
+    margin-top: 38px;
+}
+
+
+.gift{
+    position: relative;
+    display: flex;
+    background-color: #F4F5F6;
+    height: 540px;
+    width: 100%;
+    border-radius: 50px;
+    margin-top: 190px;
+}
+.gift__img{
+    position: absolute;
+    height: 650px;
+    right: 0;
+    top: -50px;
+}
+.gift__inner{
+    margin-left: 140px;
+}
+.gift__inner__about{
+   
+    margin-top: 115px;
+    font-size: 18px;
+    line-height: 18px;
+}
+.gift__inner__title{
+    height: 56px;
+    width: 300px;
+    margin-top: 22px;
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+.gift__inner__text{
+    margin-top: 75px;
+    width: 414px;
+    height: 96px;
+    font-size: 16px;
+    line-height: 24px;
+    color:#576D81;
+}
+
+.enjoy{
+    text-align: center;
+    margin-top: 150px; 
+}
+.enjoy__title{
+    text-align: center;
+   font-size: 50px; 
+   letter-spacing: 1px;
+   font-weight: bold;
+   
+}
+.enjoy__form{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.enjoy__mobile__text{
+    text-align: center;
+    width: 394px;
+    height: 55px;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    background: #F0F0F2;
+    border: 0;
+    border-radius: 6px;
+    color: #9C9C9D;
+}
+.send__link{
+   width: 156px;
+   height: 55px;
+   border-radius: 14px;
+   background: #00CCCC; 
+   font-size: 18px;
+   font-weight: bold;
+   margin-left: 20px;
+   border: 0;
+}
+
+.enjoy__download{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 175px; 
+    margin-bottom: 110px;
+    
+}
+.enjoy__appstore{
+    margin-right: 24px;
+}
+.enjoy__playstore{
+    margin-left: 6px;
+}
+.footer{
+    height: 297px;
+    background-image: url(/assets/img/Bg-footer.png) ;
+    background-size: 101%;
+    background-repeat: no-repeat;
+
+}
+ul{
+    display: block;
+}
+
+
+.footer__nav{
+    display: flex;
+}
+.footer__logo{
+    margin-top: 55px;
+}
+.footer__company{
+    margin-left: 320px;
+    margin-top: 85px;
+}
+.footer__support{
+margin-top: 85px;
+margin-left: 50px;
+}
+.footer__follow{
+    margin-top: 85px;
+    margin-left: 50px;
+}
+.footer__title{
+    color: #00CCCC;
+    font-size: 12px;
+    letter-spacing: 1.1px;
+    bottom: 15px;
+}
+.footer__text{
+    
+    color:#B7BDC3;
+    letter-spacing: 1.39px;
+    font-size: 14px;
+}
+
+@media (max-width: 1024px){
+    .container{
+        max-width: 1000px;
+    }
+    .header__logo{
+        margin-left: 50px;
+    }
+    .header__nav{
+        margin-right: 50px;
+    }
+    .intro__text__black{
+        width: 400px;
+        font-size: 44px;
+    }
+    .work__img{
+        width: 100%;
+    }
+    .gift__inner{
+        margin-left: 100px;
+    }
+    .footer__logo{
+        margin-left: 100px;
+    }
+    .footer__company{
+        margin-top: 50px;
+        margin-left: 200px;
+    }
+    .footer__follow{
+        margin-top: 50px;
+    }
+    .footer__support{
+        margin-top: 50px;
+    }
+    .footer{
+        height: 100%;
+    }
+}
+ 
+@media (max-width: 768px){
+.intro__img{
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+    max-height: 500px;
+}
+.intro__button{
+    margin-top: 100px;
+    
+}
+.intro__text__blue{
+    line-height: 0;
+    font-size: 34px;
+    margin-left: 15px;
+}
+.intro__text__black{
+    font-size: 32px;
+    line-height: 38px;
+    margin-left: 15px;
+}
+.work__inner__text{
+    width: 230px;
+
+}
+.about__inner__img{
+    text-align: center;
+}
+.about__inner__title{
+    text-align: center;
+    font-size: 19px;
+    
+}
+.about__inner__text{
+    text-align: center;
+    width: 254px;
+}
+.work__inner{
+   margin-left: 490px; 
+}
+.gift__inner{
+    margin-left: 25px;
+}
+.gift__inner__text{
+    width: 265px;
+}
+.discount__info{
+    z-index: 1;
+}
+.footer__company{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.footer__follow{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.footer__support{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.footer__logo{
+    margin-top: 20px;
+}
+}
+@media(max-width:425px){
+   .about{
+       display: block;
+   } 
+   .work__img{
+       z-index: -1;
+   }
+   .work__inner{
+       margin-left: 165px;
+   }
+   .footer__logo{
+       max-width: 70px;
+       width: 100%;
+       max-height: 30px;
+       height: 100%;
+       margin-left: 30px;
+       margin-top: 10px;
+   }
+
+   .footer__title{
+       font-size: 6px;
+   }
+    .footer__company{
+        margin-left: 0;
+    }
+}
+
+
+
+
+
